@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+   
+}
+
+
+
+
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;  
+    margin-bottom: 0px;
+    background-color: #1B2432;
+    height: 85px;
+}
+
+.menu {
+    width: 1200px;
+    height: 46px;
+    background-color: #0ABF04;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+.opcoes{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 110px;
+}
+
+.opcoes a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+
+
+.opcoes a:link {
+    color: #FFFFFF;
+    font-weight: 700;
+  }
+  
+
+  
+  /* mouse over link */
+.opcoes a:hover {
+    background-color: #1B2432;
+    
+  }
+  
+  /* selected link */
+.opcoes a:active {
+    color: yellow;
+  }
+
+.icone-menu{
+    height: 40px;
+}
+
+#barras{
+    display: none;
+}
+
+/******************fim cabecalho*****************/
+main{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+
+
+
+
+.banner{
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 296px;
+}
+
+.banner-lol{
+    background-image: url(img/banner_lol.png);
+    background-size: 100% 100%;
+    height: 296px;
+}
+
+.banner-cs{
+    background-image: url(img/banner_cs.png);
+    background-size: 100% 100%;
+    height: 296px;
+}
+
+
+
+
+.secao{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+
+
+.titulo-cards1 h1{
+    font-size: 25px;
+    color: #847979;
+    display: inline-block;
+    margin: 17px 806px 9px 97px ;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+
+.titulo-cards2 h1{
+    font-size: 25px;
+    color: #847979;
+    display: inline-block;
+    margin: 2px 806px 9px 97px ;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+.cards{
+    height: 310px;
+    padding: 3px 3px;
+    border: 1px solid #847979;
+    border-radius: 5px;
+}
+
+.cards1{
+    
+    margin: 2px 100px 0px 90px;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.cards2{
+    margin: 2px 100px 10px 90px;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.cards .compras{
+    height: 30px;
+    background-color: #0ABF04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.cards a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card-img-top{
+    margin-bottom: 7px;
+}
+
+.cards h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.cards p{
+    width: 105.05px;
+    height: 15px;
+    left: 543.48px;
+    top: 745px;
+    color:#0ABF04;
+    font-weight: bold;
+}
+
+/************************************************************************************************/
+
+
+.secao-notificacao {
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #050D19;
+    padding: 7px;
+    
+}
+
+.notificacao{
+    color:#FFFFFF;
+    display: flex;
+}
+
+.notificacao h5, p{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.notificacao p{
+    font-size: 15px;
+}
+
+.informacao{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+form{
+    display: flex;
+}
+
+.campo-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+   
+}
+
+.campo-email #campo{
+    width: 555px;
+    height: 44px;
+    border-radius: 7px;
+    padding-left: 27px;
+}
+
+
+button{
+    width: 179px;
+    height: 43px;
+    margin-left: 10px;
+    background-color: #0ABF04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+
+.secao-notificacao a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*-------------------------------------------------------------------*/
+
+.rodape{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #1B2432;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatos{
+    width: 310px;
+    margin-left: 23px;
+}
+
+.redes-sociais{
+    width: 310px;
+}
+
+.institucional {
+    width: 310px;
+    margin-right: 68px;
+}
+
+/********************************************/
+
+.contatos a{
+    text-decoration: none;
+}
+
+.contatos p{
+    margin-left: 30px;
+}
+/********************************************/
+
+.telefone, .whatsapp, .endereco{
+    position: relative;
+    width: 230px;
+    margin-bottom: 10px;
+}
+
+.telefone p, .whatsapp p, .endereco p{
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+
+.telefone .informacao1, .whatsapp .informacao2, .endereco .informacao3{
+    font-size: 16px;
+    color: #E5E5E5;
+    font-weight: bold;
+    
+}
+
+.circulo{
+    height: 7px;
+    width: 8px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #FFFFFF;
+}
+
+
+
+.icones {
+    display: flex;
+    width: 160px;
+   
+}
+
+
+@media screen and (max-width: 900px) {
+    main,.container-grid, .secao, .menu, .banner{
+        width: 100%;
+    }
+
+    .banner{
+        margin-top: 0px;
+        width: 100%;
+       
+    }
+    
+    #barras {
+        display: inline-block;
+        
+    }
+
+    .titulo-cards1 h1{
+        display: inline-block;
+        margin-left:5px;
+      
+
+    }
+    .login a{
+        display: none;
+    
+    }
+
+    .menu{
+        top: 70px;
+        width: 150px;
+        height: 290px;
+        position: absolute;
+        right: 0px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
+    .menu .opcoes{
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+    .opcoes a{
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    .titulo-cards1 h1{
+        margin-left: 0px;
+        display: block;
+        width: 100%;
+    }
+
+    .selecao-card1{
+        display: flex;
+        justify-content: space-between;
+        width: 820px;
+       
+    }
+
+    .cards1{
+        
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+
+    .cards{
+        margin-right: 0px;
+   
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .secao-notificacao, .notificacao{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .rodape{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container-footer{
+        width: 100%;
+    }
+
+    .contatos, .redes-sociais, .institucional{
+      width: 100%;
+      
+    }
+
+    .institucional{
+        margin-right: 0px;
+    }
+}
+
+
+/**************************** NÃO MEXER  abaixo**/
+
+
+@media screen and (max-width: 460px) {
+    main, .banner, .container-grid, .secao, .menu, .banner, .rodape, .secao-notificacao, form, .notificacao, .campo-email, button{
+        width: 100%;
+        
+    }
+
+    .banner{
+        border: solid blue 2px;
+    }
+
+    .container-footer{
+        flex-direction: column;
+    }
+
+    .banner{
+        margin-top: 0px;
+        width: 100%;
+       
+    }
+    
+    #barras {
+        display: inline-block;
+        
+    }
+
+    .titulo-cards1 h1{
+        display: inline-block;
+        margin-left:5px;
+      
+
+    }
+    .login a{
+        display: none;
+    
+    }
+
+    .menu{
+        top: 70px;
+        width: 150px;
+        height: 290px;
+        position: absolute;
+        right: 0px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
+    .menu .opcoes{
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+    .opcoes a{
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    .cards1, .cards2{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards{
+        margin: 0px;
+    }
+
+/*rodape*/
+    .secao-notificacao{
+        margin-top: 10px;
+    }
+
+    .notificacao{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .informacao{
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+
+
+    .form{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form button{
+        margin-left: 0px;
+    }
+
+
+    .campo-email{
+        margin-left: 0px;
+    }
+
+    .container-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .container-footer, form, button, .parteCadastro{
+        width: 100%;
+    }
+
+    .contatos h5{
+   text-align: center;
+   margin-bottom: 10px;
+
+}
+
+.contatos, .redes-sociais, .institucional{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.contatos, .redes-sociais, .institucional{
+    margin-top: 15px;
+}
+
+.icones{
+    width: 100%;
+    justify-content: space-around;
+}
+
+}
+
+
+
